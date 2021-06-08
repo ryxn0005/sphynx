@@ -40,6 +40,6 @@ module.exports = {
         .setImage(body.file)
         .setTitle(`${catnoise[cat]}!!!`)
 
-        message.channel.send(embed);
+        await message.channel.send(embed);
     },
 };

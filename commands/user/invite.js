@@ -4,7 +4,6 @@ const { color } = require('../../config.json');
 module.exports = {
     name: 'invite',
     description: `Get bot's invitation link`,
-    category: 'user',
     aliases: ['i'],
     category: 'user',
     run: (client, message, args) => {

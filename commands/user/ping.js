@@ -1,10 +1,9 @@
 const { MessageEmbed } = require('discord.js');
-const { color } = require('../../config.json');
+const { color, prefix } = require('../../config.json');
 
 module.exports = {
     name: 'ping',
     description: `Get bot's ping`,
-    category: 'user',
     aliases: ['latency'],
     category: 'user',
     run: async (client, message, args) => {
